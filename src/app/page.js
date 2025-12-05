@@ -1,11 +1,14 @@
 export default function Home() {
-  const teste = "bagunça";
   return (
-    <div>
-      <h1>Lalala</h1>
-
-      <p>lorem lorem lorem bla bla</p>
-      <h2>Identação pra que ? </h2>
+    <div className="flex min-h-screen items-center justify-center bg-gray-50 text-gray-900">
+      <main className="text-center">
+        <h1 className="text-4xl font-bold tracking-tight">
+          Next.js Boilerplate 🚀
+        </h1>
+        <p className="mt-4 text-lg text-gray-600">
+          Ambiente configurado e pronto para codar.
+        </p>
+      </main>
     </div>
   );
 }
